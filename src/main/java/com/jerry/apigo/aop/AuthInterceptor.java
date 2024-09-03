@@ -1,7 +1,7 @@
 package com.jerry.apigo.aop;
 
+import com.apigo.apigocommon.model.entity.User;
 import com.jerry.apigo.common.ErrorCode;
-import com.jerry.apigo.model.entity.User;
 import com.jerry.apigo.model.enums.UserRoleEnum;
 import com.jerry.apigo.service.UserService;
 import com.jerry.apigo.annotation.AuthCheck;

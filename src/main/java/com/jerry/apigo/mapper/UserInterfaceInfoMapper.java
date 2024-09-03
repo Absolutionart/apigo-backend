@@ -1,7 +1,10 @@
 package com.jerry.apigo.mapper;
 
+import com.apigo.apigocommon.model.entity.UserInterfaceInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.jerry.apigo.model.entity.UserInterfaceInfo;
+import com.jerry.apigo.model.vo.InterfaceInvokeInfoVO;
+
+import java.util.List;
 
 /**
 * @author 71953
@@ -11,6 +14,7 @@ import com.jerry.apigo.model.entity.UserInterfaceInfo;
 */
 public interface UserInterfaceInfoMapper extends BaseMapper<UserInterfaceInfo> {
 
+    List<InterfaceInvokeInfoVO> listTopInvokeInterfaceInfo(int limit);
 }
 
 

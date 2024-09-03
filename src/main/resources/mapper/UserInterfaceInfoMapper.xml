@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.jerry.apigo.mapper.UserInterfaceInfoMapper">
 
-    <resultMap id="BaseResultMap" type="com.jerry.apigo.model.entity.UserInterfaceInfo">
+    <resultMap id="BaseResultMap" type="com.apigo.apigocommon.model.entity.UserInterfaceInfo">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="userId" column="userId" jdbcType="BIGINT"/>
             <result property="interfaceInfoId" column="interfaceInfoId" jdbcType="BIGINT"/>
@@ -21,4 +21,15 @@
         totalNum,leftNum,status,
         createTime,updateTime,isDelete
     </sql>
+    <select id="listTopInvokeInterfaceInfo" resultType="com.jerry.apigo.model.vo.InterfaceInvokeInfoVO">
+        select
+            interfaceInfoId, sum(totalNum) as totalNum, name
+        from user_interface_info uii
+                 left join interface_info ii on uii.interfaceInfoId = ii.id
+        where uii.isDelete = 0 and uii.status = 0
+        group by interfaceInfoId
+        order by totalNum desc
+            limit 3;
+    </select>
+
 </mapper>

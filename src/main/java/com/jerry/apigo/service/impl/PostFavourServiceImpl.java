@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.jerry.apigo.common.ErrorCode;
 import com.jerry.apigo.model.entity.Post;
 import com.jerry.apigo.model.entity.PostFavour;
-import com.jerry.apigo.model.entity.User;
+import com.apigo.apigocommon.model.entity.User;
 import com.jerry.apigo.service.PostFavourService;
 import com.jerry.apigo.service.PostService;
 import com.jerry.apigo.exception.BusinessException;

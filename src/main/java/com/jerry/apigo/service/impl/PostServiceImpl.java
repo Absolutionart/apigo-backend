@@ -7,7 +7,7 @@ import com.jerry.apigo.common.ErrorCode;
 import com.jerry.apigo.model.entity.Post;
 import com.jerry.apigo.model.entity.PostFavour;
 import com.jerry.apigo.model.entity.PostThumb;
-import com.jerry.apigo.model.entity.User;
+import com.apigo.apigocommon.model.entity.User;
 import com.jerry.apigo.model.vo.PostVO;
 import com.jerry.apigo.service.PostService;
 import com.jerry.apigo.service.UserService;

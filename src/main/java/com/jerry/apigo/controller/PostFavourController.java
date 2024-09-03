@@ -1,12 +1,12 @@
 package com.jerry.apigo.controller;
 
+import com.apigo.apigocommon.model.entity.User;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.jerry.apigo.common.BaseResponse;
 import com.jerry.apigo.common.ErrorCode;
 import com.jerry.apigo.model.dto.postfavour.PostFavourAddRequest;
 import com.jerry.apigo.model.dto.postfavour.PostFavourQueryRequest;
 import com.jerry.apigo.model.entity.Post;
-import com.jerry.apigo.model.entity.User;
 import com.jerry.apigo.model.vo.PostVO;
 import com.jerry.apigo.service.PostFavourService;
 import com.jerry.apigo.service.PostService;

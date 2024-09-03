@@ -1,9 +1,9 @@
 package com.jerry.apigo.controller;
 
+import com.apigo.apigocommon.model.entity.User;
 import com.jerry.apigo.common.BaseResponse;
 import com.jerry.apigo.common.ErrorCode;
 import com.jerry.apigo.model.dto.postthumb.PostThumbAddRequest;
-import com.jerry.apigo.model.entity.User;
 import com.jerry.apigo.service.PostThumbService;
 import com.jerry.apigo.service.UserService;
 import com.jerry.apigo.common.ResultUtils;

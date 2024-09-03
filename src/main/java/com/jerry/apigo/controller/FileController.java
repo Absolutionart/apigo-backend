@@ -1,10 +1,10 @@
 package com.jerry.apigo.controller;
 
 import cn.hutool.core.io.FileUtil;
+import com.apigo.apigocommon.model.entity.User;
 import com.jerry.apigo.common.BaseResponse;
 import com.jerry.apigo.common.ErrorCode;
 import com.jerry.apigo.manager.CosManager;
-import com.jerry.apigo.model.entity.User;
 import com.jerry.apigo.model.enums.FileUploadBizEnum;
 import com.jerry.apigo.service.UserService;
 import com.jerry.apigo.common.ResultUtils;

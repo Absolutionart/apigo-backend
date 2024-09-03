@@ -1,8 +1,7 @@
 package com.jerry.apigo.mapper;
 
+import com.apigo.apigocommon.model.entity.InterfaceInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.jerry.apigo.model.entity.InterfaceInfo;
-
 
 /**
 * @author 71953

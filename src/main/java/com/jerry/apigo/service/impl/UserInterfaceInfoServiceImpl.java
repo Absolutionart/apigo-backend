@@ -1,12 +1,11 @@
 package com.jerry.apigo.service.impl;
 
+import com.apigo.apigocommon.model.entity.UserInterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-
 import com.jerry.apigo.common.ErrorCode;
 import com.jerry.apigo.exception.BusinessException;
 import com.jerry.apigo.exception.ThrowUtils;
 import com.jerry.apigo.mapper.UserInterfaceInfoMapper;
-import com.jerry.apigo.model.entity.UserInterfaceInfo;
 import com.jerry.apigo.service.UserInterfaceInfoService;
 import org.springframework.stereotype.Service;
 

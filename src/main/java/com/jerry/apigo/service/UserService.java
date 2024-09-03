@@ -1,8 +1,8 @@
 package com.jerry.apigo.service;
 
+import com.apigo.apigocommon.model.entity.User;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.jerry.apigo.model.entity.User;
 import com.jerry.apigo.model.dto.user.UserQueryRequest;
 import com.jerry.apigo.model.vo.LoginUserVO;
 import com.jerry.apigo.model.vo.UserVO;

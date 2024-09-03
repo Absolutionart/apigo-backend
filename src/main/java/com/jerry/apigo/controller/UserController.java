@@ -1,5 +1,6 @@
 package com.jerry.apigo.controller;
 
+import com.apigo.apigocommon.model.entity.User;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.jerry.apigo.common.BaseResponse;
 import com.jerry.apigo.common.DeleteRequest;
@@ -8,7 +9,6 @@ import com.jerry.apigo.config.WxOpenConfig;
 import com.jerry.apigo.constant.UserConstant;
 import com.jerry.apigo.model.dto.user.UserAddRequest;
 import com.jerry.apigo.model.dto.user.UserUpdateRequest;
-import com.jerry.apigo.model.entity.User;
 import com.jerry.apigo.model.vo.LoginUserVO;
 import com.jerry.apigo.model.vo.UserVO;
 import com.jerry.apigo.service.UserService;

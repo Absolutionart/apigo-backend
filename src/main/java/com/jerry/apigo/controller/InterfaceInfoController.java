@@ -1,6 +1,7 @@
 package com.jerry.apigo.controller;
 
-import cn.hutool.json.JSONUtil;
+import com.apigo.apigocommon.model.entity.InterfaceInfo;
+import com.apigo.apigocommon.model.entity.User;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.google.gson.Gson;
@@ -14,8 +15,6 @@ import com.jerry.apigo.model.dto.interfaceinfo.InterfaceInfoAddRequest;
 import com.jerry.apigo.model.dto.interfaceinfo.InterfaceInfoInvokeRequest;
 import com.jerry.apigo.model.dto.interfaceinfo.InterfaceInfoQueryRequest;
 import com.jerry.apigo.model.dto.interfaceinfo.InterfaceInfoUpdateRequest;
-import com.jerry.apigo.model.entity.InterfaceInfo;
-import com.jerry.apigo.model.entity.User;
 import com.jerry.apigo.model.enums.InterfaceInfoEnum;
 import com.jerry.apigo.service.InterfaceInfoService;
 import com.jerry.apigo.service.UserService;

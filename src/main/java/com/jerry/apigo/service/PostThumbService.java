@@ -1,7 +1,7 @@
 package com.jerry.apigo.service;
 
 import com.jerry.apigo.model.entity.PostThumb;
-import com.jerry.apigo.model.entity.User;
+import com.apigo.apigocommon.model.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

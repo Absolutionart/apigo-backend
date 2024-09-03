@@ -1,6 +1,7 @@
 package com.jerry.apigo.controller;
 
 import cn.hutool.json.JSONUtil;
+import com.apigo.apigocommon.model.entity.User;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.jerry.apigo.annotation.AuthCheck;
 import com.jerry.apigo.common.BaseResponse;
@@ -12,7 +13,6 @@ import com.jerry.apigo.exception.ThrowUtils;
 import com.jerry.apigo.model.dto.post.PostAddRequest;
 import com.jerry.apigo.model.dto.post.PostQueryRequest;
 import com.jerry.apigo.model.entity.Post;
-import com.jerry.apigo.model.entity.User;
 import com.jerry.apigo.model.vo.PostVO;
 import com.jerry.apigo.service.PostService;
 import com.jerry.apigo.service.UserService;

@@ -1,8 +1,9 @@
 package com.jerry.apigo.controller;
 
+import com.apigo.apigocommon.model.entity.User;
+import com.apigo.apigocommon.model.entity.UserInterfaceInfo;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.google.gson.Gson;
 import com.jerry.apigo.annotation.AuthCheck;
 import com.jerry.apigo.common.*;
 import com.jerry.apigo.constant.CommonConstant;
@@ -13,9 +14,6 @@ import com.jerry.apigo.exception.ThrowUtils;
 import com.jerry.apigo.model.dto.userinterfaceinfo.UserInterfaceInfoAddRequest;
 import com.jerry.apigo.model.dto.userinterfaceinfo.UserInterfaceInfoQueryRequest;
 import com.jerry.apigo.model.dto.userinterfaceinfo.UserInterfaceInfoUpdateRequest;
-import com.jerry.apigo.model.entity.UserInterfaceInfo;
-import com.jerry.apigo.model.entity.User;
-
 import com.jerry.apigo.service.UserInterfaceInfoService;
 import com.jerry.apigo.service.UserService;
 import com.jerry.myapiclientsdk.client.MyApiClient;

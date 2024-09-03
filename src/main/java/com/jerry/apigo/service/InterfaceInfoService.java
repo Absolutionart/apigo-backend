@@ -1,8 +1,7 @@
 package com.jerry.apigo.service;
 
+import com.apigo.apigocommon.model.entity.InterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.jerry.apigo.model.entity.InterfaceInfo;
-
 
 /**
 * @author 71953
